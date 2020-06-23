@@ -1,0 +1,7 @@
+A time calculator in the format of HH:MM:SS.
+
+The user will first input the number of hours, minutes, and/or seconds into the calcluator
+then press enter. This will update the total amount of time displayed and the user can add
+more time.
+
+A reset button will be included if the user wishes to restart the calculator.

@@ -1,0 +1,13 @@
+/* Choose the Font for the words */
+#style {
+	font-family: Impact, charcoal, sans-serif;
+}
+.header {
+	text-align: center;
+	font-weight: normal;
+	margin: 5px 0 10px 0;
+}
+
+/* Box for User */
+
+/* Box to display total time */
