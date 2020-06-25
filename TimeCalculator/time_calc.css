@@ -1,13 +1,154 @@
 /* Choose the Font for the words */
-#style {
+#insert-time {
 	font-family: Impact, charcoal, sans-serif;
 }
 .header {
 	text-align: center;
-	font-weight: normal;
-	margin: 5px 0 10px 0;
+	font-weight: bold;
 }
 
-/* Box for User */
+.body-text {
+	text-algin: center;
+	font-size: 25px;
+}
 
-/* Box to display total time */
+/* Grey Box under all the other boxes*/
+.square {
+	
+	display: inline-block;
+	height: 400px;
+	width: 600px;
+	background-color: #555;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 20px; 
+
+	/* Sets the position of the box (-5% to right if increase width by 100px) */
+	position:absolute;
+    top:25%;
+    right:25%;
+	
+}
+
+/* Insert time box  */
+#insert-time .square {
+	
+	display: inline-block;
+	height: 150px;
+	width: 560px;
+	background-color: #add8e6;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 20px; 
+
+	/* Sets the position of the box (Go neg to move more right) */
+	position:absolute;
+    top:29%;
+    right:26.5%;
+	
+}
+
+/* Change text style */
+#insert-time .hours-text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 45px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:230px; /* neg goes up, pos goes down */
+	right:850px;
+	
+}
+
+#insert-time .min-text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 45px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:230px;
+	right:650px;
+	
+}
+
+#insert-time .sec-text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 45px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:230px;
+	right:460px;
+	
+}
+
+/* Displays total time */
+
+/* Total Time Text */
+#result .text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:400px;
+	right:750px;
+}
+
+/* Hours Display */
+#result .hh {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:850px;
+}
+
+/* Min Display */
+#result .mm {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:650px;
+}
+
+/* Sec Display */
+#result .ss {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:500px;
+}
+
+/* Outer box for display */
+#result .square {
+	
+	display: inline-block;
+	height: 150px;
+	width: 560px;
+	background-color: #FFF;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 20px; 
+
+	/* Sets the position of the box (Go neg to move more right) */
+	position:absolute;
+    top:63%;
+    right:26.5%;
+	
+}

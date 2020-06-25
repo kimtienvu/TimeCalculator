@@ -2,21 +2,46 @@
 <html>
 	<head>
 		<title>
-			<b>Time Calculator</b>
+			Time Calculator
 		</title>
-		<link href="insert css file name.css here" rel="stylesheet">
-		<script src="insert javascript.js here"></script>
+		<link href="time_calc.css" rel="stylesheet">
+		<script src="time_calc.js"></script>
 	</head>
 	<body>
 	
-	<!-- For User to fll in hours, minutes, seconds -->
-	<div id="fill_time">
-		<h1 class="header">Add Hours, Minutes, Seconds</h1>
+	<!-- Insert title of webpage -->
+	<div class="header">
+		<h1> Time Calculator </h1>
+	</div>
 	
+	<!-- Add instructions -->
+	<div class="body-text">
+		<p> Add hours, minutes, and seconds one at a time then press enter. 
+		Keep inserting hours, minutes, and seconds and press enter to update 
+		the result. Press the restart button to start over. </p>
+	</div>
+	
+	<!-- Grey box That makes up frame -->
+	<div class="square"> </div>
+
+	<!-- Box where User fills in hours, minutes, and seconds -->
+	<div id="insert-time">
+		<div class="square"></div>
+		<div class="hours-text"> HH </div>
+		<div class="min-text"> MM </div>
+		<div class="sec-text"> SS </div>
 	</div>
 	
 	
 	<!-- Total Time Displayed as __ Hours, __ Minutes, __ Seconds -->
+	<div id="result">
+		<div class="square"></div>
+		<div class="text">Total Time:</div>
+		<div class="hh"> HH: </div>
+		<div class="mm"> MM: </div>
+		<div class="ss"> SS: </div>
+	
+	</div>
 	
 	</body>
 </html>
