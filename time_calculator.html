@@ -44,7 +44,7 @@
 			</script>
 			-->
 			<br>
-			<select>
+			<select id = "hhs">
 				<option value="0">00</option>
 				<option value="1">01</option>			
 				<option value="2">02</option>
@@ -110,7 +110,7 @@
 			
 			<div class="drop-downM">
 			<br>
-			<select>
+			<select id= "mms">
 				<option value="0">00</option>
 				<option value="1">01</option>			
 				<option value="2">02</option>
@@ -177,7 +177,7 @@
 			
 			<div class="drop-downS">
 			<br>
-			<select>
+			<select id = "sss">
 				<option value="0">00</option>
 				<option value="1">01</option>			
 				<option value="2">02</option>
@@ -249,25 +249,25 @@
 	<div id="result">
 		<div class="square"></div>
 		<div class="text">Total Time:</div>
-		<div class="hh"> HH: </div>
-		<div class="mm"> MM: </div>
-		<div class="ss"> SS: </div>
+		<div class="hh"> Hr: </div>
+		<div class="mm"> Min: </div>
+		<div class="ss"> Sec: </div>
 		
 		<!-- Display time -->
-		<div class="hr-num" id="hr"> 00 </div>
-		<div class="min-num" id="min"> 00 </div>
-		<div class="sec-num" id="sec"> 00 </div>
+		<div class="hr-num" id="hr">00</div>
+		<div class="min-num" id="min">00</div>
+		<div class="sec-num" id="sec">00</div>
 	
 	</div>
 	
     <!-- Enter Button -->
 	<br>
-	<button class="button enter"> <b> Enter To Add Time </b> </button>
+	<button class="button enter" onclick="enter()"> <b> Enter To Add Time </b> </button>
 	</br>
 	 
 	<!-- Reset Button -->
 	<br>
-	<button class="button reset"> <b> Reset To Start Over </b> </button>
+	<button class="button reset" onclick="reset()"> <b> Reset To Start Over </b> </button>
 	</br>
 
 	</body>
