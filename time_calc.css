@@ -1,0 +1,246 @@
+/* Choose the Font for the words */
+#insert-time {
+	font-family: Impact, charcoal, sans-serif;
+}
+.header {
+	text-align: center;
+	font-weight: bold;
+}
+
+.body-text {
+	text-algin: center;
+	font-size: 25px;
+}
+
+/* Grey Box under all the other boxes*/
+.square {
+	
+	display: inline-block;
+	height: 400px;
+	width: 600px;
+	background-color: #555;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 20px; 
+
+	/* Sets the position of the box (-5% to right if increase width by 100px) */
+	position:absolute;
+    top:25%;
+    right:25%;
+	
+}
+
+/* Insert time box  */
+#insert-time .square {
+	
+	display: inline-block;
+	height: 150px;
+	width: 560px;
+	background-color: #add8e6;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 20px; 
+
+	/* Sets the position of the box (Go neg to move more right) */
+	position:absolute;
+    top:29%;
+    right:26.5%;
+	
+}
+
+/* Change text style */
+#insert-time .hours-text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 45px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:230px; /* neg goes up, pos goes down */
+	right:850px;
+	
+}
+
+#insert-time .min-text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 45px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:230px;
+	right:650px;
+	
+}
+
+#insert-time .sec-text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 45px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:230px;
+	right:460px;
+	
+}
+
+/* Display drop down box for user to input time */
+#insert-time .drop-downH {
+	display:inline-block;
+	width: 50%;
+	position: absolute;
+	z-index: 10;
+	top:240px;
+	right:160px;
+}
+
+#insert-time .drop-downM {
+	display:inline-block;
+	width: 50%;
+	position: absolute;
+	z-index: 10;
+	top:0px;
+	right:130px;
+}
+
+#insert-time .drop-downS {
+	display:inline-block;
+	width: 50%;
+	position: absolute;
+	z-index: 10;
+	top:0px;
+	right:-55px;
+}
+
+/* Button format */
+.button {
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+
+/* Position and color for enter button */
+.enter {
+	background-color:#4CAF50;
+	position: absolute;
+	top: 300px;
+	right: 40px;
+}
+
+/* Position and color for reset button */
+.reset {
+	background-color:#FF0000;
+	position: absolute;
+	top: 500px;
+	right: 40px;
+	
+}
+
+/* Displays total time */
+
+/* Total Time Text */
+#result .text {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:400px;
+	right:750px;
+}
+
+/* Hours Display */
+#result .hh {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:850px;
+}
+
+/* Min Display */
+#result .mm {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:650px;
+}
+
+/* Sec Display */
+#result .ss {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:500px;
+}
+
+/* Displays total time numbers */
+#result .hr-num {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:800px;
+	
+}
+
+#result .min-num {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:600px;
+	
+}
+
+#result .sec-num {
+	color: #000;
+	margin-top: 10px;
+	font-size: 35px;
+	
+	/* Changes position of the text */
+	position:absolute;
+	top:470px;
+	right:450px;
+	
+}
+
+/* Outer box for display */
+#result .square {
+	
+	display: inline-block;
+	height: 150px;
+	width: 560px;
+	background-color: #FFF;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 20px; 
+
+	/* Sets the position of the box (Go neg to move more right) */
+	position:absolute;
+    top:63%;
+    right:26.5%;
+	
+}
