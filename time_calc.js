@@ -13,41 +13,38 @@ function enter() {
 	var read_s = document.getElementById("sss");
 	var new_s = read_s.options[read_s.selectedIndex].value;
 		
+	// Convert string to num
+	new_s = parseInt(new_s, 10);
 	
-		// Convert string to num
-		new_s = parseInt(new_s, 10);
-	
-		// Add new seconds to current seconds
-		curr_s = curr_s + new_s;
+	// Add new seconds to current seconds
+	curr_s = curr_s + new_s;
 		
-		// If total seconds >= 60, increment minutes
-		if ( curr_s >= 60 ) {
-			
-			curr_s = curr_s - 60;
-			curr_m = curr_m + 1;
-		}
+	// If total seconds >= 60, increment minutes
+	if ( curr_s >= 60 ) {
+		curr_s = curr_s - 60;
+		curr_m = curr_m + 1;
+	}
 
 	// Read in Drop Down Menu for min
 	var read_m = document.getElementById("mms");
 	var new_m = read_m.options[read_m.selectedIndex].value;
 	
-		new_m = parseInt(new_m, 10);
+	new_m = parseInt(new_m, 10);
+	curr_m = curr_m + new_m;
 		
-		curr_m = curr_m + new_m;
-		
-		// If total min >= 60, increment hr
-		if ( curr_m >= 60 ) {
+	// If total min >= 60, increment hr
+	if ( curr_m >= 60 ) {
 			
-			curr_m = curr_m - 60;
-			curr_h = curr_h + 1;
-		}
+		curr_m = curr_m - 60;
+		curr_h = curr_h + 1;
+	}
 
 	// Read in Drop Down Menu for hrs
 	var read_h = document.getElementById("hhs");
 	var new_h = read_h.options[read_h.selectedIndex].value;
 	
-		new_h = parseInt(new_h, 10);
-		curr_h = curr_h + new_h;
+	new_h = parseInt(new_h, 10);
+	curr_h = curr_h + new_h;
 	
 	// Display total time hh: mm: ss
 	document.getElementById("hr").innerHTML = curr_h;
