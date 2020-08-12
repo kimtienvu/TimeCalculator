@@ -34,7 +34,6 @@ function enter() {
 		
 	// If total min >= 60, increment hr
 	if ( curr_m >= 60 ) {
-			
 		curr_m = curr_m - 60;
 		curr_h = curr_h + 1;
 	}
