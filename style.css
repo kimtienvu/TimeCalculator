@@ -1,0 +1,39 @@
+
+/* Title text */
+.header {
+	text-align: center;
+	font-weight: bold;
+    font-family: Sans-serif;
+    font-size: 30px;
+    color: white;
+	
+}
+
+/* Menubar */
+.header_square {
+	
+	height: 1%;
+	width: 100%;
+	background-color: #3c40c6;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 0.1%; 
+}
+
+/* Instructions */
+.body-text {
+	text-align: center;
+    font-family: Sans-serif;
+	font-size: 20px;
+    color: white;
+}
+
+/* Background square for instructions text */
+.instructions_square {
+    height: 1%;
+	width: 100%;
+	background-color: #f53b57;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 0.1%; 
+}

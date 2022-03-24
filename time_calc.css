@@ -1,3 +1,6 @@
+
+
+
 /* Choose the Font for the words */
 #insert-time {
 	font-family: Impact, charcoal, sans-serif;
@@ -5,6 +8,7 @@
 .header {
 	text-align: center;
 	font-weight: bold;
+	background-color: rgb(21, 85, 146)
 }
 
 .body-text {
