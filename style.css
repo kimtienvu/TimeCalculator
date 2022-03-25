@@ -37,3 +37,60 @@
 	/* Bigger the padding, bigger the square */
 	padding: 0.1%; 
 }
+
+/* Grey Box under all the other boxes*/
+.bg_input_square {
+	
+	height: 50%;
+	width: 100%;
+	background-color: #808e9b;
+	
+	/* Bigger the padding, bigger the square */
+	padding: 20px; 
+	
+}
+
+/* Light grey box under input section */
+.input_square {
+    border-radius: 25px;
+    background: #d2dae2;
+    width: 100%;
+    height: 100%;  
+}
+
+/* header styles */
+.session-text, .total-text {
+    text-align: center;
+    font-family: Sans-serif;
+	font-size: 50px;
+    color: white;
+}
+
+/* Style the time inside a table */
+table {
+    width: 100%;
+}
+
+/* For input hours, min, sec titles*/
+#hours-title, #min-title, #sec-title {
+    
+    text-align: center;
+    font-family: Sans-serif;
+	font-size: 50px;
+    color: #1e272e;
+}
+
+/* Dropdown menu style for input time */
+#hhs, #mms, #sss {
+    font-family: Sans-serif;
+	font-size: 50px;
+    color: #1e272e;
+}
+
+/* Result time display style */
+.hr-num, .min-num, .sec-num {
+    text-align: center;
+    font-family: Sans-serif;
+	font-size: 50px;
+    color: #1e272e;
+}
