@@ -94,3 +94,22 @@ table {
 	font-size: 50px;
     color: #1e272e;
 }
+
+/* Button format */
+.button {
+	color: white;
+	padding: 5% 10%;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+
+.enter {
+    background-color: #05c46b;
+}
+
+.reset {
+    background-color: #f53b57;
+}

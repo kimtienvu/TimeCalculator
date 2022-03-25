@@ -20,8 +20,8 @@
 	<!-- Add instructions -->
 	<div class="instructions_square">
 		<div class="body-text">
-			<p> <b>Instructions: </b>Input the time below then press enter to add up the community service hours.
-			Pressing Enter will add the current time to the previous result. To start over, press the restart button. </p>
+			<p> <b>Instructions: </b>Input the time below then press the enter button to add up your community service hours. Time will be added one community service session at a time.
+			Pressing Enter will add the current time to the previous result. To start over, press the reset button. </p>
 		</div>
 	</div>
 	
@@ -239,9 +239,9 @@
 						</th>
 					</tr>
 				</table>
-				</div>
 			</div>
 		</div>
+	</div>
 	
 	<!-- Total Time Displayed as __ Hours, __ Minutes, __ Seconds -->
 	<div id="result">
@@ -263,18 +263,18 @@
 					</tr>
 				</table>
 			</div>
+			<table>
+				<tr>
+					<!-- Enter Button -->
+					<th><button class="button enter" onclick="enter()"> <b> Enter </b> </button></th>
+					<!-- Reset Button -->
+					<th><button class="button reset" onclick="reset()"> <b> Reset </b> </button></th>
+				</tr>
+			</table>
 		</div>
 	</div>
 	
-    <!-- Enter Button -->
-	<br>
-	<button class="button enter" onclick="enter()"> <b> Enter To Add Time </b> </button>
-	</br>
-	 
-	<!-- Reset Button -->
-	<br>
-	<button class="button reset" onclick="reset()"> <b> Reset To Start Over </b> </button>
-	</br>
+    
 
 	</body>
 </html>
